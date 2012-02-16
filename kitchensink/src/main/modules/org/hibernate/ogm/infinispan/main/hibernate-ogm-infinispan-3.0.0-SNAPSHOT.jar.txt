@@ -1,0 +1,3 @@
+please copy file
+hibernate-ogm/hibernate-ogm-infinispan/target/hibernate-ogm-infinispan-3.0.0-SNAPSHOT.jar
+into this folder

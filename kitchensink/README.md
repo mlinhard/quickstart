@@ -25,7 +25,13 @@ With the prerequisites out of the way, you're ready to build and deploy.
 
 Deploying the application
 -------------------------
- 
+
+Tried with JBoss AS 7.1.0.Final "Thunder"
+Copy kitchensink/src/main/modules to $JBOSS_HOME, + add missing jars to respective folders
+namely
+$JBOSS_HOME/modules/org/hibernate/ogm/infinispan/main/hibernate-ogm-infinispan-3.0.0-SNAPSHOT.jar
+$JBOSS_HOME/modules/org/hibernate/ogm/main/hibernate-ogm-core-3.0.0-SNAPSHOT.jar
+
 First you need to start JBoss AS 7 (or JBoss Enterprise Application Platform 6). To do this, run
   
     $JBOSS_HOME/bin/standalone.sh
